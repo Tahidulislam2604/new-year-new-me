@@ -143,9 +143,9 @@
 
 /* positive section styles */
 .positive {
-    background-image: url(../images/watch.png), url(../images/gradient2.png);
+    background-image: url(../images/watch.png),url(../images/gradient2.png);
     background-position: right, left;
-    background-repeat: no-repeat;
+    background-repeat: 2;
     display: grid;
     margin: 130px 230px;
     width: 1140px;
@@ -166,7 +166,7 @@
     height: 94px;
     padding-left: 64px;
     padding-top: 60px;
-    text-align: center;
+    text-align: left;
 
 }
 
