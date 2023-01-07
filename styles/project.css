@@ -231,8 +231,7 @@
     font-size: 25px;
 }
 
-.input input,
-button {
+.input input, button {
     padding-top: 21px;
     padding-bottom: 22px;
     padding-left: 21px;
