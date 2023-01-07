@@ -89,22 +89,26 @@
 
 /* plan section styles */
 
+.plan {
+    width: 1141px;
+    height: 299.96px;
+}
+
 .plan-item {
     margin-left: 230px;
     margin-right: 229px;
     width: 1141px;
     height: 299.96px;
     text-align: center;
-
+    justify-content: center;
 }
 
 .plan-title {
-    text-align: center;
     font-weight: 700;
     font-size: 40px;
     width: 179px;
+    height: 47px;
     margin-bottom: 71px;
-    direction: rtl;
 }
 
 
@@ -117,16 +121,18 @@
 
 .plan-sub-title {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     color: #151414;
     margin: 16px;
+    text-align: center;
 }
 
 .plan-para {
     font-weight: 500;
-    font-size: 25px;
+    font-size: 15px;
     color: #737272;
     padding-bottom: 130px;
+    text-align: center;
 }
 
 .plan-img {
@@ -174,6 +180,8 @@
     text-align: center;
     border-radius: 5%;
     border: 0;
+    width: 160px;
+    height: 64px;
 }
 
 /* footer styles */
@@ -223,19 +231,20 @@
     font-size: 25px;
 }
 
-.footer-input {
-    width: 325px;
-    height: 64px;
+.input input,
+button {
     padding-top: 21px;
     padding-bottom: 22px;
     padding-left: 21px;
-    margin-bottom: 16px;
+    width: 100%;
+    margin-bottom: 36px;
 }
 
 .btn-third {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
     width: 170.11px;
     height: 64px;
-    color: #F15B22;
-    padding: 20px 36px;
-    margin-top: 36px;
 }
