@@ -1,7 +1,89 @@
-*{
+* {
     font-family: work sans;
 }
-.header{
-    background: #1E1E1E;
+
+/* header section styles */
+.header {
     background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: 1599px;
+    height: 837px;
+    background-position: right;
 }
+
+.banner {
+    text-align: right;
+    padding-right: 229px;
+    padding-top: 214px;
+    direction: rtl;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    max-width: 525px;
+    max-height: 228px;
+    text-align: right;
+    padding-bottom: 24px;
+    
+
+}
+
+.banner-description {
+    color: #444343;
+    width: 494px;
+    height: 78px;
+    text-align: right;
+    width: 494px;
+    height: 78px;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* failure section styles */
+
+.failure-item {
+    margin: 94px 310px 136px 218px;
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+.failure-img {
+    width: 569px;
+    height: 723.3px;
+    margin: 102px 85px 128px 228px;
+}
+
+.failure-item-container {
+    width: 416px;
+    height: 400px; 
+}
+
+.failure-description {
+    margin-bottom: 16px;
+
+}
+
+.failure-description .failure-item-ul {
+    font-size: 10px;
+}
+
+.failure-item-ul{
+    list-style: square;
+}
+
+.failure-item-list{
+    height: 34px;
+}
+/* plan section styles */
