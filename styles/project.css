@@ -26,7 +26,7 @@
     max-height: 228px;
     text-align: right;
     padding-bottom: 24px;
-    
+
 
 }
 
@@ -67,7 +67,7 @@
 
 .failure-item-container {
     width: 416px;
-    height: 400px; 
+    height: 400px;
 }
 
 .failure-description {
@@ -79,11 +79,71 @@
     font-size: 10px;
 }
 
-.failure-item-ul{
+.failure-item-ul {
     list-style: square;
 }
 
-.failure-item-list{
+.failure-item-list {
     height: 34px;
 }
+
 /* plan section styles */
+
+.plan-item {
+    margin-left: 230px;
+    margin-right: 229px;
+    width: 1141px;
+    height: 299.96px;
+    text-align: center;
+
+}
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    width: 179px;
+    margin-bottom: 71px;
+    direction: rtl;
+}
+
+
+
+.plan-item-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 86px;
+}
+
+.plan-sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 16px;
+}
+
+.plan-para {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.plan-img {
+    width: 92.96px;
+    height: 92.96px;
+    margin-bottom: 24px;
+}
+
+/* positive section styles */
+.positive-item {
+    background-image: url(images/watch.png);
+}
+
+.positive-title {
+    width: 459px;
+    height: 94px;
+    color: #FFFFFF;
+}
+.btn-second{
+    
+}
